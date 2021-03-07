@@ -6423,10 +6423,8 @@ object-keys@^1.0.11, object-keys@^1.0.12:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.0.12.tgz#09c53855377575310cca62f55bb334abff7b3ed2"
   integrity sha512-FTMyFUm2wBcGHnH2eXmz7tC6IwlqQZ6mVZ+6dm6vZ4IQIHjs6FdNsQBuKGPuUUUY6NfJw2PshC08Tn6LzLDOag==
 
-object-path@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.6.0.tgz#b69a7d110937934f336ca561fd9be1ad7b7e0cb7"
-  integrity sha1-tpp9EQk3k08zbKVh/ZvhrXt+DLc=
+object-path@^0.11.5:
+  version "0.11.5"
 
 object-visit@^1.0.0:
   version "1.0.1"
@@ -8622,7 +8620,7 @@ sort-by@^1.2.0:
   resolved "https://registry.yarnpkg.com/sort-by/-/sort-by-1.2.0.tgz#ed92bbff9fd2284b41f6503e38496607b225fe6f"
   integrity sha1-7ZK7/5/SKEtB9lA+OElmB7Il/m8=
   dependencies:
-    object-path "0.6.0"
+    object-path
 
 source-list-map@^2.0.0:
   version "2.0.1"
